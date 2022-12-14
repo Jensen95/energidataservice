@@ -227,6 +227,7 @@ class APIConnector:
                     self.api_today = api.today
                     self.tomorrow = api.tomorrow
                     self.api_tomorrow = api.tomorrow
+                    self._tomorrow_valid = True
 
                     _LOGGER.debug(
                         "%s got values from %s (namespace='%s')",
